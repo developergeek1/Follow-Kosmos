@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Follow KOSMOS | Stay Connected</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            /* Kosmos Blue */
+            --bg-color: #f3f4f6;
+            --card-bg: #ffffff;
+            --text-main: #1f2937;
+            --text-sub: #6b7280;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            background: var(--card-bg);
+            width: 100%;
+            max-width: 450px;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: 800;
+            letter-spacing: 2px;
+            color: var(--text-main);
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .logo span {
+            color: var(--primary-color);
+        }
+
+        h2 {
+            font-size: 22px;
+            color: var(--text-main);
+            margin-bottom: 8px;
+        }
+
+        p {
+            color: var(--text-sub);
+            font-size: 14px;
+            line-height: 1.5;
+            margin-bottom: 30px;
+        }
+
+        .social-links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .social-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            padding: 14px;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 15px;
+            transition: all 0.3s ease;
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .social-btn i {
+            margin-right: 10px;
+            font-size: 18px;
+        }
+
+        /* Brand Colors */
+        .instagram {
+            background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+        }
+
+        .linkedin {
+            background-color: #0077b5;
+        }
+
+        .twitter {
+            background-color: #000000;
+        }
+
+        .website {
+            background-color: var(--primary-color);
+        }
+
+        /* Hover Effects */
+        .social-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            opacity: 0.95;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 12px;
+            color: #9ca3af;
+            border-top: 1px solid #e5e7eb;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="logo">KOSMOS<span>.</span></div>
+        <h2>Join the Community</h2>
+        <p>Stay updated with design resources, class announcements, and future tech-health innovations.</p>
+
+        <div class="social-links">
+            <a href="https://instagram.com/consultkosmos/" target="_blank" class="social-btn instagram">
+                <i class="fab fa-instagram"></i> Follow on Instagram
+            </a>
+
+            <a href="https://www.linkedin.com/company/consultkosmos" target="_blank" class="social-btn linkedin">
+                <i class="fab fa-linkedin-in"></i> Connect on LinkedIn
+            </a>
+
+            <a href="https://twitter.com/consultkosmos/" target="_blank" class="social-btn twitter">
+                <i class="fa-brands fa-x-twitter"></i> Follow on X
+            </a>
+
+            <a href="https://kosmosconsult.in/" target="_blank" class="social-btn website">
+                <i class="fas fa-globe"></i> Visit Our Website
+            </a>
+        </div>
+
+        <div class="footer">
+            &copy; 2025 KOSMOS. Designed by Gabriel Charles Gargard.
+        </div>
+    </div>
+
+</body>
+
+</html>
